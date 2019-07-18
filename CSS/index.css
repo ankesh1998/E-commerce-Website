@@ -1,0 +1,73 @@
+html{
+	 height: 100%;
+ }
+body
+{    
+	position: relative;
+	width: 100%;     
+	min-height: 100%;     
+	margin: 0;
+    padding-bottom: 6rem;
+ 
+	 }
+body{
+    padding-top:100px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.content{
+	min-height: 600px;
+}	
+.banner-image{
+	padding-bottom: 50px;    
+ 	text-align: center;    
+  	color: #f8f8f8;     
+  	background: url(../index-image/intro-bg_1.jpg)no-repeat center;     
+  	background-size: cover; 
+}
+.inner-banner-image{
+	  padding-top: 12%;     
+	  width:80%;   
+	  margin:auto; 
+	  
+}
+.banner_content{
+	 position: relative;    
+	 padding-top: 6%;     
+	 padding-bottom: 6%;   
+	 overflow:hidden;     
+	 margin-bottom: 12%;    
+	 background-color: rgba(0, 0, 0, 0.7);   
+	 max-width: 660px; 
+}
+footer {
+	position: absolute;
+	padding: 1rem;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+#cameras:before, #watches:before, #shirts:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+.red{
+    color:red;
+}
+.remove_item_link{
+    color:#0000ff;
+}
